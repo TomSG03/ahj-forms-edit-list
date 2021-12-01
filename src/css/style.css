@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000;
+
+  font-family: "PT Sans",Calibri,Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.products {
+
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.product-title {
+  width: 100%;
+
+  margin: 15px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-table {
+  width: 100%;
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+th {
+  padding: 0 10px;
+
+  font-family: "PT Sans",Calibri,Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.b1 {
+  width: 50%;
+  text-align: left;
+}
+
+.b2 {
+  width: 40%;
+  text-align: left;
+}
+
+.b3 {
+  text-align: left;
+  width: 10%;
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  user-select: none;
+}
+
+td {
+  padding: 0 10px;
+}
+
+
